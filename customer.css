@@ -1,8 +1,7 @@
 body {
-    background-image: url("interface.jpg");
+    /*background-color: olive;*/
+    background-image: url("coin.jpg");
     background-size: cover;
-    font-family: "Roboto", cursive;
-    font-weight: bolder;
 }
 
 .main-heading {
@@ -14,12 +13,12 @@ body {
 }
 
 .header i {
-    color: red;
+    color: black;
     background-color: #8ac4d0;
     border-radius: 50%;
     position: absolute;
-    right: 70px;
-    top: 40px;
+    right: 100px;
+    top: 70px;
     opacity: 0.6;
 }
 
@@ -28,13 +27,13 @@ body {
 }
 
 .customer-table {
-    padding: 5% 0;
-    padding-left: 5%;
+    padding-top: 5%;
+    padding-left: 15%;
 }
 
 table th,
 td {
-    border: 1px solid black;
+    border: 3px solid black;
     width: 30%;
     text-align: center;
     border-collapse: collapse;
@@ -56,30 +55,4 @@ td {
 
 td:hover {
     opacity: 1.0;
-}
-
-.button {
-    text-align: center;
-    padding-bottom: 5%;
-    transition-duration: 0.4s;
-    box-shadow: #49a56c;
-    background-color: #e20a5d;
-}
-
-
-/*.my-btn {
-    margin-left: 5%;
-    font-weight: 900px;
-} */
-
-.my-btn {
-    background-color: #e20a5d;
-    font-size: 1em;
-    padding: 10px;
-    font-weight: 500;
-    border: 2px solid #f5f6f7;
-    -webkit-transition-duration: 1s;
-    /* Safari */
-    transition-duration: 1s;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
